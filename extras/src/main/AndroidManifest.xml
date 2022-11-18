@@ -8,9 +8,9 @@
 
   <application tools:ignore="GoogleAppIndexingWarning">
 
-    <activity android:name=".EmptyActivity" />
+    <activity android:name=".EmptyActivity" android:exported="true" />
 
-    <activity android:name=".TalkBackStateSettingActivity">
+    <activity android:name=".TalkBackStateSettingActivity" android:exported="true">
 
       <intent-filter>
         <action android:name="com.novoda.espresso.ENABLE_TALKBACK" />
